@@ -121,6 +121,8 @@ project/plugins/project/
 .lib/
 .bsp
 
+/.bsp
+/.idea
 ### Scala ###
 *.class
 *.log
