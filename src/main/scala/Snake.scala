@@ -21,7 +21,7 @@ case class Snake(startHead: SnakeHead, startBody: List[SnakePiece]) {
   }
 
   def changeDirection(move: Move): Unit = {
-    val (x, y, direction) = startHead
+    val (x, y, direction) = snakeHead
     move match {
       case _:LeftMove => snakeHead = (x, y, direction.toLeft)
       case _:RightMove => snakeHead = (x, y, direction.toRight)
